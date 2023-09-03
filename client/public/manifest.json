@@ -1,0 +1,21 @@
+{
+    "name": "Carbon",
+    "description": "Fossil Fuel",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Open the popup"
+    },
+    "permissions": [
+        "storage"
+      ],
+      "host_permissions": [
+        "https://dull-gold-cockatoo-garb.cyclic.cloud/api/zones"
+      ],
+      "icons": {
+          "16": "logo512.png",
+          "48": "logo512.png",
+          "128": "logo512.png"
+      }
+ }

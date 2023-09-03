@@ -1,0 +1,95 @@
+:root {
+    --newColor: brown;
+  }
+
+body {
+    /* height: 500px; */
+    width: 320px;
+    background-color: #CEDEBD;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-div {
+    margin: auto;
+}
+
+
+
+#form-div {
+    display: none;
+    background-color: #fff;
+    padding-top: 20px;
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 10px;
+}
+
+.card {
+    display: flexbox;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px 10px 0 10px ;
+}
+
+.card-p {
+    width: 100%;
+    padding: 2px 0 0 20px;
+}
+
+.card-p p {
+    font-size: medium;
+    margin-bottom: 0;
+}
+
+.box {
+    padding-top: 0px;
+}
+
+#square-box {
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: var(--newColor);
+    margin: 0 7px 0 7px;
+}
+
+#square-box p {
+    font-size: large;
+    padding-top: 29px;
+    text-align: center;
+    margin: 0;
+}
+
+.chart {
+    padding-top: 0;
+    height: 80px;
+    width: 80px;
+    margin: 0 7px 0 7px;
+    position: relative;
+}
+
+.fuel-percentage {
+    position: absolute;
+    font-size: large;
+    top: 12px;
+    left: 27px;
+}
+
+.catagory {
+    text-align: center;
+    font-size: medium;
+    margin-bottom: 0;
+}
+
+.catagory2 {
+    text-align: center;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+}
